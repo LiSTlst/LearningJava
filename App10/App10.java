@@ -7,6 +7,7 @@ public class App10{
 		char ch;
 		int data;
 		try{
+			/*
 			fin=new FileInputStream(FileDescriptor.in);
 			fout=new FileOutputStream("d:\\cgi\\myfile.txt");
 			while((ch=(char)fin.read())!='#'){
@@ -15,6 +16,7 @@ public class App10{
 			fin.close();
 			fout.close();
 			System.out.println();
+			*/
 
 			fin = new FileInputStream("d:\\cgi\\myfile.txt");
 			fout=new FileOutputStream(FileDescriptor.out);
